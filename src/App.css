@@ -1,0 +1,33 @@
+:root {
+  --primary_color: rgb(243, 241, 245);
+  --secondary_color: rgb(127, 124, 130);
+  --accent_color: rgb(240, 217, 255);
+  --alt_accent_color: rgb(191, 162, 219);
+  --accent_font: 'Poiret One', cursive;
+  --main_font: 'Roboto', sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+a:hover {
+  border-bottom: 1px solid var(--primary_color)
+}
+
+
+
+
+

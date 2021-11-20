@@ -1,0 +1,42 @@
+#Projects {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../photos/stacked-peaks-haikei.svg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#Projects .section_title {
+    height: 10vh;
+    color: var(--primary_color);
+    font-family: var(--accent_font);
+    font-size: 3.5rem;
+    margin: 25px auto;
+}
+
+.projects_wrapper {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 25px auto 100px;
+}
+
+.img_title {
+    font-family: var(--main_font);
+}
+
+@media screen and (max-width: 414px) {
+    .projects_wrapper {
+        display: flex;
+        flex-direction: column; 
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .projects_wrapper {
+        width: 90%;
+    }
+}
