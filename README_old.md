@@ -4,7 +4,7 @@
 
 ### Title
 
-- [ ] in pulic/index.html on line 13, change React App to your name
+- [x] in pulic/index.html on line 13, change React App to your name
 
 ### About
 
