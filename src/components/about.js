@@ -4,7 +4,7 @@ import Rick from '../photos/RickMansfield.PNG'
 export default function About() {
     const userInfo = {
         profile_pic: Rick, //use a square formatted image
-        bio: 'Full Stack Web Developer & Computer Science Engineer with a practical understanding of (HTML, CSS (responsive design), JavaScript, JSX, Node JS, React, Redux, Express, SQLite3, MySQL, Postgres, Python, MongoDB, and RESTful API & Responsive Design. Comfortable with New Features Implementation maintains and refactors existing code across various languages, frameworks, and databases. A growth mindset developer that works well with a team or independently in a remote setting',
+        bio: 'Full Stack Web Developer & Computer Science Engineer with a practical understanding of (HTML, CSS (responsive design), JavaScript, JSX, Node JS, React, Redux, Express, SQLite3, MySQL, Postgres, Heroku, Python, MongoDB, and RESTful API & Responsive Design. Comfortable with New Features Implementation maintains and refactors existing code across various languages, frameworks, and databases. A growth mindset developer that works well with a team or independently in a remote setting',
     }
     
     return (

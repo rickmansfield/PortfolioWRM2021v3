@@ -8,11 +8,11 @@
 
 ### About
 
-- [ ] fill out "userInfo" object in src/components/about.js
+- [x] fill out "userInfo" object in src/components/about.js
 
 ### Contact
 
-- [ ] fill out "user" object in src/components/contact.js
+- [x] fill out "user" object in src/components/contact.js
         - if you don't want your cv download, leave an empty string and it won't show up.
 
 ### Main

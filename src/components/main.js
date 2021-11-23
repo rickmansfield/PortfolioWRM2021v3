@@ -3,8 +3,8 @@ import './main.css';
 
 export default function Main() {
     const user = {
-        name: 'Your Name',              //Your name here
-        subtitle: 'some fancy subtitle' //Make a catchy subtitle
+        name: 'Rick Mansfield',
+        subtitle: 'Full Stack Web Development & Computer Science Engineer'
     }
 
     return (
