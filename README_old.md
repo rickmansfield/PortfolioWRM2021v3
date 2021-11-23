@@ -18,7 +18,7 @@
 ### Main
 
 - [x] fill out "user" object in src/components/main.js
-    - [ ] if you want a different background change the url on line 9 of src/components/main.css (can also mess around with https://app.haikei.app/)
+    - [x] if you want a different background change the url on line 9 of src/components/main.css (can also mess around with https://app.haikei.app/)
 
 ### Projects
 
