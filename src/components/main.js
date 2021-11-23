@@ -4,7 +4,8 @@ import './main.css';
 export default function Main() {
     const user = {
         name: 'Rick Mansfield',
-        subtitle: 'Full Stack Web Development & Computer Science Engineer'
+        subtitle: 'Full Stack Web Development',
+        subtitle2: '& Computer Science Engineer'
     }
 
     return (
@@ -19,6 +20,7 @@ export default function Main() {
                 <div className='main_text'>
                     <h1>{user.name}</h1>
                     <h2>{user.subtitle}</h2>
+                    <h2>{user.subtitle2}</h2>
                 </div>
             </div>
         </div>

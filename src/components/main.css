@@ -2,11 +2,14 @@
     height: 100vh;
     width: 100%;
 }
-
+/* 
+credit/For the background Nubelson Fernandes
+https://unsplash.com/photos/-Xqckh_XVU4
+ */
 .main_background_img {
     height: 100%;
     width: 100%;
-    background-image: url('../photos/waves.svg');
+    background-image: url('../photos/background.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
