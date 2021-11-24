@@ -16,8 +16,8 @@ export default function Projects() {
                 'Set up initial React Project and File Structure', 
                 'Create CRUD applications for functionality', 
             ],
-            gitHub: '', // add a link to repo here (leave blank to not display icon)
-            deployed_site: '', //if you have a deployed site then feel free to add it (leave blank to not display icon)
+            gitHub: 'https://github.com/rickmansfield/Potluck-U3-FE-20210823',
+            deployed_site: 'https://potlucku3fe20210823.netlify.app/', 
         },
         {
             title: 'Project Title2', 
