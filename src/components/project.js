@@ -2,11 +2,11 @@ import './project.css';
 import React, { useState } from 'react'
 
 export default function Project(props) {
-    const [ isActive, setIsActive ] = useState(false)
-    const { 
-        gitHub, 
-        title, 
-        description, 
+    const [isActive, setIsActive] = useState(false)
+    const {
+        gitHub,
+        title,
+        description,
         contributions,
         deployed_site
     } = props.proj
@@ -23,18 +23,18 @@ export default function Project(props) {
     }
 
     return (
-        <div 
+        <div
             className={isActive ? 'active_project' : 'project'}
             onClick={handleClick}
         >
-             <div className='exit_icon' onClick={handleExit}>
+            <div className='exit_icon' onClick={handleExit}>
                 <i className="lni lni-close"></i>
             </div>
             <div className='background_img'>
                 <h3 className='img_title'>{title}</h3>
             </div>
             <div>
-               {gitHub && <span className='icon_wrap'>
+                {gitHub && <span className='icon_wrap'>
                     <a href={gitHub}>
                         <i className="lni lni-github-original"></i>
                     </a>
@@ -52,14 +52,14 @@ export default function Project(props) {
                 <p className='description'>{description}</p>
                 <div className='contributions'>{contributions.map((contribution, index) => {
                     return (
-                        <p 
-                            className='contribution' 
+                        <p
+                            className='contribution'
                             key={index}
                         >
                             • {contribution}
                         </p>
                     )
-                    })}
+                })}
                 </div>
             </div>
         </div>
