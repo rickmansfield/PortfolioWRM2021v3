@@ -10,6 +10,7 @@ https://unsplash.com/photos/-Xqckh_XVU4
     height: 100%;
     width: 100%;
     background-image: url('../photos/background.jpg');
+    /* background-image: url('../photos/DSC_9470.jpg'); */
     background-size: cover;
     background-position: center;
     display: flex;
