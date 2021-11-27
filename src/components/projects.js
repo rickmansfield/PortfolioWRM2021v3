@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Project from './project';
 import './projects.css';
+import styled from 'styled-components'
 
 export default function Projects() {
     const [ displayProjects, setDisplayProjects ] = useState(true)
