@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
 import Rick from '../photos/RickMansfield.PNG'
+
 export default function About() {
     const userInfo = {
         profile_pic: Rick,

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Project from './project';
 import './projects.css';
-// import styled from 'styled-components'
 import Potluckpic from '../photos/Potluck2Backend.jpg'
 
 export default function Projects() {
