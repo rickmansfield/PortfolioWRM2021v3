@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Project from './project';
 import './projects.css';
-import Potluckpic from '../photos/Potluck2Backend.jpg'
+// import Potluckpic from '../photos/Potluck2Backend.jpg'
 
 export default function Projects() {
     const [ displayProjects, setDisplayProjects ] = useState(true)
@@ -20,7 +20,7 @@ export default function Projects() {
             gitHub: 'https://github.com/rickmansfield/Potluck-U3-FE-20210823',
             deployed_site: 'https://potlucku3fe20210823.netlify.app/',
             // card_image: `https://picsum.photos/200/300?green`,
-            card_image:Potluckpic,
+            // card_image:Potluckpic,
         },
         {
             title: 'Project Title2', 
@@ -104,16 +104,20 @@ export default function Projects() {
     return (
         <div id='Projects'>
             <h3 className='section_title'>- PROJECTS -</h3>
-            <div className='background_img'>
-            <img src={user_projects.card_image} alt='Potluck Meal' />
-            </div>
+        
             {displayProjects && <div className='projects_wrapper'>
                 {user_projects.map((proj, index) => {
                     return(
                         <Project proj={proj} setDisplayProjects={setDisplayProjects} key={index} /> 
                     )
                 })}
+
             </div>}
+            
         </div>
     )
 }
+/*
+            <div className='background_img'>
+            <img src={user_projects.card_image} alt='Potluck Meal' /></div>
+*/
