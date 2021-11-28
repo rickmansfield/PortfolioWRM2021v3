@@ -11,7 +11,7 @@ export default function About() {
         <div id='About'>
             <h3 className='section_title'>- ABOUT -</h3>
             <div className='txt_wrapper'>
-                <img src={userInfo.profile_pic} alt='this is me!' />
+                <img src={userInfo.profile_pic} alt='this is Rick Mansfield!' />
                 <p>{userInfo.bio}</p>
             </div>
         </div>
