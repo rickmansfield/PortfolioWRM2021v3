@@ -31,7 +31,9 @@ export default function Project(props) {
             <div className='exit_icon' onClick={handleExit}>
                 <i className="lni lni-close"></i>
             </div>
-            <div className='background_img'>{card_image}
+            <div
+                className='background_img'
+                style={{ backgroundImage: 'url(' + card_image + ')' }}>
                 <h3 className='img_title'>{title}</h3>
             </div>
             <div>

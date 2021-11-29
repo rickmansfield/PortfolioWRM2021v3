@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Project from './project';
 import './projects.css';
-// import Potluckpic from '../photos/Potluck2Backend.jpg'
+import Potluckpic from '../photos/Potluck2Backend.jpg'
 
 export default function Projects() {
     const [ displayProjects, setDisplayProjects ] = useState(true)
@@ -20,7 +20,7 @@ export default function Projects() {
             gitHub: 'https://github.com/rickmansfield/Potluck-U3-FE-20210823',
             deployed_site: 'https://potlucku3fe20210823.netlify.app/',
             // card_image: `https://picsum.photos/200/300?green`,
-            // card_image:Potluckpic,
+            card_image:Potluckpic,
         },
         {
             title: 'Project Title2', 
