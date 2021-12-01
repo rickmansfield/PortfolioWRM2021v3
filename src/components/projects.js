@@ -43,6 +43,7 @@ export default function Projects() {
             ],
             gitHub: '', 
             deployed_site: '',
+            card_image: '',
         },
         {
             title: 'Project Title4', 
@@ -54,6 +55,7 @@ export default function Projects() {
             ],
             gitHub: '', 
             deployed_site: '',
+            card_image: '',
         },
         {
             title: 'Project Title5', 
@@ -65,6 +67,7 @@ export default function Projects() {
             ],
             gitHub: '', 
             deployed_site: '',
+            card_image: '',
         },
         {
             title: 'Project Title6', 
@@ -76,6 +79,7 @@ export default function Projects() {
             ],
             gitHub: '', 
             deployed_site: '',
+            card_image: '',
         },
         {
             title: 'Project Title7', 
@@ -87,6 +91,7 @@ export default function Projects() {
             ],
             gitHub: '', 
             deployed_site: '',
+            card_image: '',
         },
         {
             title: 'Project Title8', 
@@ -98,6 +103,7 @@ export default function Projects() {
             ],
             gitHub: '', 
             deployed_site: '',
+            card_image: '',
         },
     ]
 
