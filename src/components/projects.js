@@ -23,11 +23,11 @@ export default function Projects() {
             card_image:Potluckpic,
         },
         {
-            title: 'Project Title2', 
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus luctus rutrum molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut sit amet justo vel est semper laoreet. Sed ut euismod diam, quis eleifend dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum dignissim ante at enim lacinia fringilla. Proin vitae aliquet orci. Quisque vehicula augue ligula, venenatis imperdiet metus fermentum quis. Nullam odio est, molestie a finibus vel, faucibus quis lectus. Fusce eu odio in elit convallis tristique. Integer consequat ac arcu vitae faucibus. In sagittis ac eros id luctus. Quisque sed malesuada nulla.', 
+            title: 'Potluck Backend', 
+            description: 'This is the backend bridge to the Frontend product', 
             contributions: [    
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
+                'Single Handedly built entire backend', 
+                'Used Node.js and Express ', 
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
             ],
             gitHub: '', 
