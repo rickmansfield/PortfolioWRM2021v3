@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Project from './project';
 import './projects.css';
 import Potluckpic from '../photos/Potluck2Backend.jpg'
+import PotluckBe from '../photos/food3.png'
 
 export default function Projects() {
     const [ displayProjects, setDisplayProjects ] = useState(true)
@@ -31,6 +32,7 @@ export default function Projects() {
             ],
             gitHub: 'https://github.com/rickmansfield/PotLuckBackEnd102021', 
             deployed_site: 'https://front-end-pearl-eight.vercel.app/',
+            card_image: PotluckBe,
         },
         {
             title: 'Project Title3', 
