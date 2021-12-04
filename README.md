@@ -29,4 +29,4 @@ Here are some ideas to get you started:
 ### ADDITIONAL SKILLS:
 - Agile Project Management, Algorithms, Architecture, Debugging, Deployment, Technical Project Management
 
-    ![Vikings Code](Assets/img/Rick-n-Sara-Vikings2jpg.jpg)
+    ![Vikings Code](/src/photos/Rick-n-Sara-Vikings2jpg.jpg)
