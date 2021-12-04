@@ -42,8 +42,8 @@ export default function Projects() {
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
             ],
-            gitHub: '', 
-            deployed_site: '',
+            gitHub: 'https://github.com/Build-Week-092021-Water-My-Plants/frontend', 
+            deployed_site: 'https://water-my-plants-092021.netlify.app/',
             card_image: '',
         },
         {
