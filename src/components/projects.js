@@ -79,12 +79,15 @@ export default function Projects() {
             card_image: ChoreDoorImg,
         },
         {
-            title: 'Jammming',
-            description: 'That\'s Jammming with three "m\'s. This application demonstrates ',
+            title: 'Spotify Jammming',
+            description: 'That\'s Jammming with three "m\'s. This is a Javascript/React API with Spotify and it demos my knowledge of React components, passing state, and CRUD requests with the Spotify API. The application allows the user to search the Spotify Library, create a custom playlist, then save it to their real Spotify Account. ',
             contributions: [
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+                'Achiteched Directory Structure initiated React app and Created Static Components',               
+                'Passed State through a series of components to render an array of tracks using constuctor fuctions and .map()',
+                'Enabled passing playlist to track list, adding tracks to playlist, removing tracks from playlist, changing of playlist name',
+                'Hooked searchbar to Spotify database via API',
+                'Wrote three methods that Get a Spotify user\'s access token, sends a search request to the Spotify API, and saves a user\'s playlist to their real Spotify account. ',
+                'For more details see my GitHub repository'
             ],
             gitHub: 'https://github.com/rickmansfield/10-12-1_Project_Jammming',
             deployed_site: 'https://rickmansfield.github.io/10-12-1_Project_Jammming/',

@@ -30,3 +30,6 @@ Here are some ideas to get you started:
 - Agile Project Management, Algorithms, Architecture, Debugging, Deployment, Technical Project Management
 
     ![Vikings Code](/src/photos/Rick-n-Sara-Vikings2jpg.jpg)
+
+## Contributors
+- I'd like to formally thank [Devin Mitchel](devin.a.mitchell@gmail.com) for providing me with the base design to this project. He was an integral part in this overall product.  
