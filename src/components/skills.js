@@ -29,4 +29,6 @@ const StyledSkills = styled.div`
     font-size: 3.5rem;
     margin: 25px auto;
 }
+@media screen and (max-width: 414px) {
+}
 `
