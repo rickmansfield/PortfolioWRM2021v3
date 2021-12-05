@@ -3,6 +3,7 @@ import Project from './project';
 import './projects.css';
 import PotluckFE from '../photos/Potluck2Backend.jpg'
 import PotluckBe from '../photos/food3.png'
+import WaterMyPlantsPic from '../photos/waterMyPlants2.PNG'
 
 export default function Projects() {
     const [ displayProjects, setDisplayProjects ] = useState(true)
@@ -23,11 +24,12 @@ export default function Projects() {
         },
         {
             title: 'Potluck Backend', 
-            description: 'The backend bridge to the Frontend product. ', 
+            description: 'The backend bridge to the Frontend product.', 
             contributions: [    
-                'Single-handedly Configured entire DB and Backend using Node.js, Express, Heroku', 
-                'Architected DB schema and all endpoints to accommodate Frontend needs ', 
-                'Gained hands-on experience with client and server testing via Postman, Postgress', 
+                'Lead Backend Developer',
+                'Single-handedly Configured entire DB and Backend code  producing the backbone for the project', 
+                'Architected DB schema and all endpoints to accommodate Frontend needs and make their job easier', 
+                'Oversaw  client and server testing via Postman, Postgres to ensure a bug-free deployment', 
             ],
             gitHub: 'https://github.com/rickmansfield/PotLuckBackEnd102021', 
             deployed_site: 'https://front-end-pearl-eight.vercel.app/',
@@ -43,7 +45,7 @@ export default function Projects() {
             ],
             gitHub: 'https://github.com/Build-Week-092021-Water-My-Plants/frontend', 
             deployed_site: 'https://water-my-plants-092021.netlify.app/',
-            card_image: '',
+            card_image: WaterMyPlantsPic,
         },
         {
             title: 'Project Title4', 
