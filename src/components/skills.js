@@ -1,5 +1,4 @@
 import React from 'react'
-// import './skills.css'
 import styled from "styled-components";
 
 export default function skills() {

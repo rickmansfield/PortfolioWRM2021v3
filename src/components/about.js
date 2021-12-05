@@ -1,5 +1,4 @@
 import React from 'react'
-// import './about.css'
 import Rick from '../photos/RickMansfield.PNG'
 import styled from "styled-components";
 
