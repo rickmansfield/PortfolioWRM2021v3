@@ -37,11 +37,12 @@ export default function Projects() {
         },
         {
             title: 'Water My Plants FE', 
-            description: 'Need help remembering to water those plants? Well hers\'s the solution!', 
+            description: 'Need help remembering to water those plants? Well here\'s the solution!', 
             contributions: [    
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
+                'Lead Frontend Developer | Technical Project Manager', 
+                'Initiated wireframe, file structure, and Repository for a team of six to build on a scalable architecture', 
+                'Reviewed pull requests  and final mergers to ensure optimal  & bug-free UX/UI and React/Redux frontend functionality', 
+                'Guided project’s Axios/CRUD RESTful state management to combine scalable usability with progressive visual design',
             ],
             gitHub: 'https://github.com/Build-Week-092021-Water-My-Plants/frontend', 
             deployed_site: 'https://water-my-plants-092021.netlify.app/',
