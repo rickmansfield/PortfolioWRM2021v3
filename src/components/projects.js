@@ -4,6 +4,7 @@ import './projects.css';
 import PotluckFE from '../photos/Potluck2Backend.jpg'
 import PotluckBe from '../photos/food3.png'
 import WaterMyPlantsPic from '../photos/waterMyPlants2.PNG'
+import Background_keyboard from '../photos/background.jpg'
 
 export default function Projects() {
     const [ displayProjects, setDisplayProjects ] = useState(true)
@@ -97,16 +98,16 @@ export default function Projects() {
             card_image: '',
         },
         {
-            title: 'Project Title8', 
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus luctus rutrum molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut sit amet justo vel est semper laoreet. Sed ut euismod diam, quis eleifend dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum dignissim ante at enim lacinia fringilla. Proin vitae aliquet orci. Quisque vehicula augue ligula, venenatis imperdiet metus fermentum quis. Nullam odio est, molestie a finibus vel, faucibus quis lectus. Fusce eu odio in elit convallis tristique. Integer consequat ac arcu vitae faucibus. In sagittis ac eros id luctus. Quisque sed malesuada nulla.', 
+            title: 'Portfolio.v3', 
+            description: 'Yup! My Portfolio is 100% created and built by me.', 
             contributions: [
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
+                'Initiated and Built the project end to end', 
+                'Lead Team of ONE, fun chuckle', 
+                'Loved every minute of it and continue to update it at every opportunity', 
             ],
-            gitHub: '', 
-            deployed_site: '',
-            card_image: '',
+            gitHub: 'https://github.com/rickmansfield/PortfolioWRM2021v3', 
+            deployed_site: 'https://mansfield-port-v3.netlify.app/',
+            card_image: Background_keyboard,
         },
     ]
 
