@@ -5,6 +5,7 @@ import PotluckFE from '../photos/Potluck2Backend.jpg'
 import PotluckBe from '../photos/food3.png'
 import WaterMyPlantsPic from '../photos/waterMyPlants2.PNG'
 import Background_keyboard from '../photos/background.jpg'
+import RockPaperScisorsImg from '../photos/RockPaperScisors.png'
 
 export default function Projects() {
     const [ displayProjects, setDisplayProjects ] = useState(true)
@@ -50,16 +51,16 @@ export default function Projects() {
             card_image: WaterMyPlantsPic,
         },
         {
-            title: 'Project Title4', 
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus luctus rutrum molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut sit amet justo vel est semper laoreet. Sed ut euismod diam, quis eleifend dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum dignissim ante at enim lacinia fringilla. Proin vitae aliquet orci. Quisque vehicula augue ligula, venenatis imperdiet metus fermentum quis. Nullam odio est, molestie a finibus vel, faucibus quis lectus. Fusce eu odio in elit convallis tristique. Integer consequat ac arcu vitae faucibus. In sagittis ac eros id luctus. Quisque sed malesuada nulla.', 
+            title: 'Rock Paper Scisors', 
+            description: 'A fun online version of the classic Rock Paper Scisors Game. Play the computer or play your friends. This project demos simple algo logic like Fiz Buz Pop in basic JavaScript', 
             contributions: [    
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
+                'Initiated basic Javascript, HTML, CSS simple clean site', 
+                'Architected alog logic and employed jquery animations', 
+                'Deployed using Github Pages', 
             ],
-            gitHub: '', 
-            deployed_site: '',
-            card_image: '',
+            gitHub: 'https://github.com/rickmansfield/RockPaperScisors_JS', 
+            deployed_site: 'https://rickmansfield.github.io/RockPaperScisors_JS/',
+            card_image: RockPaperScisorsImg,
         },
         {
             title: 'Project Title5', 
