@@ -6,6 +6,7 @@ import PotluckBe from '../photos/food3.png'
 import WaterMyPlantsPic from '../photos/waterMyPlants2.PNG'
 import Background_keyboard from '../photos/background.jpg'
 import RockPaperScisorsImg from '../photos/RockPaperScisors.png'
+import ChoreDoorImg from '../photos/ChoreDoor.png'
 
 export default function Projects() {
     const [ displayProjects, setDisplayProjects ] = useState(true)
@@ -63,16 +64,16 @@ export default function Projects() {
             card_image: RockPaperScisorsImg,
         },
         {
-            title: 'Project Title5', 
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus luctus rutrum molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut sit amet justo vel est semper laoreet. Sed ut euismod diam, quis eleifend dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum dignissim ante at enim lacinia fringilla. Proin vitae aliquet orci. Quisque vehicula augue ligula, venenatis imperdiet metus fermentum quis. Nullam odio est, molestie a finibus vel, faucibus quis lectus. Fusce eu odio in elit convallis tristique. Integer consequat ac arcu vitae faucibus. In sagittis ac eros id luctus. Quisque sed malesuada nulla.', 
+            title: 'Chore Door', 
+            description: 'A fun interactive game based on simple JavaScript. Would you believe this game is desigedn with only 5 files? No kidding check the code yourself. HTML, CSS, JS, Img and README.md... that is it!', 
             contributions: [    
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
+                'Created JavaScript based component with alogs, helper functions, and event handlers to give the game a fun interactive feel for the users experience (UX)', 
+                'Contributed to the Index.html to produce a streamlined simple application', 
+                'Contributed to some styling to polish off the app ', 
             ],
-            gitHub: '', 
-            deployed_site: '',
-            card_image: '',
+            gitHub: 'https://github.com/rickmansfield/6-1-4_Project_Chore_Door', 
+            deployed_site: 'https://rickmansfield.github.io/6-1-4_Project_Chore_Door/',
+            card_image: ChoreDoorImg,
         },
         {
             title: 'Project Title6', 
