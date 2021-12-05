@@ -1,6 +1,7 @@
 import React from 'react'
-import './about.css'
+// import './about.css'
 import Rick from '../photos/RickMansfield.PNG'
+import styled from "styled-components";
 
 export default function About() {
     const userInfo = {
@@ -9,6 +10,7 @@ export default function About() {
     }
     
     return (
+        <StyleAbout>
         <div id='About'>
             <h3 className='section_title'>- ABOUT -</h3>
             <div className='txt_wrapper'>
@@ -16,5 +18,52 @@ export default function About() {
                 <p>{userInfo.bio}</p>
             </div>
         </div>
+        </StyleAbout>
     )
 }
+
+const StyleAbout = styled.div`
+#About {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #001220;
+    display: flex;
+    flex-direction: column;
+}
+
+.section_title {
+    height: 10%;
+    color: var(--primary_color);
+    font-family: var(--accent_font);
+    font-size: 3.5rem;
+    margin: 25px auto;
+}
+
+.txt_wrapper {
+    height: 90%;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.txt_wrapper img {
+    border: 5px solid var(--primary_color);
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+.txt_wrapper p {
+    font-size: 1.3rem;
+    color: var(--primary_color);
+    padding: auto;
+    line-height: 2;
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 414px) {
+    .txt_wrapper {
+        width: 80%;
+    }
+}
+`
