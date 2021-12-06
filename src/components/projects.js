@@ -95,14 +95,16 @@ export default function Projects() {
         },
         {
             // title: 'Nasa Daily Photo',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus luctus rutrum molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut sit amet justo vel est semper laoreet. Sed ut euismod diam, quis eleifend dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum dignissim ante at enim lacinia fringilla. Proin vitae aliquet orci. Quisque vehicula augue ligula, venenatis imperdiet metus fermentum quis. Nullam odio est, molestie a finibus vel, faucibus quis lectus. Fusce eu odio in elit convallis tristique. Integer consequat ac arcu vitae faucibus. In sagittis ac eros id luctus. Quisque sed malesuada nulla.',
+            description: 'Get a new photo from NASA every day. This site uses REACT\'s UI library to create a complex rich user interface. It demonstrates building sometihng that could power the user experience in such a way that is decoupled and unconcerned when and where data is received. As a SPA it further demos my undertanding of the "V" in the MVC (Model, View, Controller) paradigm. The architecture permits small, resusable, pieces of UI that can be easily put together to make this scalable application',
             contributions: [
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+                'Empoloyed REACT to create a complex, rich user interface UI',
+                'Created all the components, managed and displayed state creating a great experience for the user UX',
+                'Passed data via props in components desiged to be easily maintained',
+                'Employed or minimized "side effects" as needed',
+                'Styled the app using multiple libraries demonstrating scalable advanced styling techniques'
             ],
             gitHub: '',
-            deployed_site: '',
+            deployed_site: 'https://rickmansfield.github.io/NASA-Daily-Photo/',
             card_image: 'https://th.bing.com/th/id/R.babed827cebebf236f71a2bf1f2bcd4c?rik=YRZhpbH0T81t9g&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f5%2f63%2fcbZ6VN.png&ehk=OXu1EXojjaThyf%2bXKdZ9NUCdHXCk6CL8EKmQl8FxGQ4%3d&risl=&pid=ImgRaw&r=0',
         },
         {
