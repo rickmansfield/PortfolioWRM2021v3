@@ -136,13 +136,15 @@ export default function Projects() {
         },
         {
             title: 'React Wars',
-            description: 'In this demo I create a web page that presents a styled list of characters obtained from an API. Being able to render out data to a web page is a large part of what JavaScript developers do, this challenge demos the ability to achieve such a task.',
+            description: 'In this demo I create a web page that presents a styled list of Star Wars characters obtained from an API. Being able to render out data to a web page is a large part of what JavaScript developers do, this challenge demos the ability to achieve such a task. This challenge allowed me to practice the concepts and techniques of Javascript combined with React and apply them in a concrete project. During this sprint, I studied React components and advanced styling. This project helps answer the question what is React JS and what problem does it solve. After reviewing [React](https://reactjs.org/) they say it\'s a Javascript library for building user inerfaces. In my own words, React.js is an open-source JavaScript Library. It is not a language. It\'s used to build out DOM from within a JS file specifically for single-page type applications giving a smooth fast user interface. It\'s scalable and it makes both the front end developer job and UX optimal. Let\'s pat Mark Zuckerburg\'s Jordan Walke (software engineer) on the back for making our lives easier.',
             contributions: [
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+                'Used Mock Server API to perform CRUD operations',
+                'Set the list of characters into state & Rendered to DOM',
+                'Built all components such as "Character.js" to render each individual character',
+                'Mapped over the list in state rendering all charaters to the page and styled with styled-components',
+                'Tested endpoints with both HTTPie and Postman'
             ],
-            gitHub: '',
+            gitHub: 'https://github.com/rickmansfield/StarWars',
             deployed_site: 'https://star-wars-xi-roan.vercel.app/',
             card_image: 'https://media.giphy.com/media/kesu1tiePAiGY/giphy.gif',
         },
