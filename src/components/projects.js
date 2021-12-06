@@ -10,6 +10,7 @@ import ChoreDoorImg from '../photos/ChoreDoor.png'
 import JammingImg from '../photos/jammming.png'
 import UnderdogDevsImg from '../photos/UnderdogDevs.JPG'
 import RavenousImg from '../photos/Ravenous.jpg'
+import StarWarsImg from '../photos/StarWars.png'
 
 
 export default function Projects() {
@@ -142,7 +143,7 @@ export default function Projects() {
             ],
             gitHub: '',
             deployed_site: '',
-            card_image: '',
+            card_image: StarWarsImg,
         },
         {
             title: 'Lambda Eats',
@@ -154,7 +155,7 @@ export default function Projects() {
             ],
             gitHub: '',
             deployed_site: '',
-            card_image: '',
+            card_image: 'https://media.giphy.com/media/uYuNg2J4x9HUY/giphy.gif',
         },
         {
             title: 'Great Idea',
