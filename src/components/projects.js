@@ -116,7 +116,7 @@ export default function Projects() {
                 'Pair programmed in both frontend and backend repositories to create a platform for the underprivileged to learn to code ',
             ],
             gitHub: 'https://github.com/BloomTech-Labs/underdog-devs-fe-a',
-            deployed_site: '',
+            deployed_site: 'https://www.underdogdevs.org/',
             card_image: UnderdogDevsImg,
         },
         {
