@@ -11,6 +11,7 @@ import ChoreDoorImg from '../photos/ChoreDoor.png'
 import UnderdogDevsImg from '../photos/UnderdogDevs.JPG'
 import RavenousImg from '../photos/Ravenous.jpg'
 // import StarWarsImg from '../photos/StarWars.png'
+import GreatIdeaImg from '../photos/GreatIdea.png'
 
 
 export default function Projects() {
@@ -153,8 +154,8 @@ export default function Projects() {
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
             ],
-            gitHub: '',
-            deployed_site: '',
+            gitHub: 'https://github.com/rickmansfield/LambdaEats',
+            deployed_site: 'https://lambda-eats-pizza.netlify.app/',
             card_image: 'https://media.giphy.com/media/uYuNg2J4x9HUY/giphy.gif',
         },
         {
@@ -167,7 +168,7 @@ export default function Projects() {
             ],
             gitHub: '',
             deployed_site: '',
-            card_image: '',
+            card_image: GreatIdeaImg,
         },
         // {
         //     title: 'Project Title7', 
