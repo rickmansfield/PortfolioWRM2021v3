@@ -150,11 +150,13 @@ export default function Projects() {
         },
         {
             title: 'Lambda Eats',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus luctus rutrum molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut sit amet justo vel est semper laoreet. Sed ut euismod diam, quis eleifend dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum dignissim ante at enim lacinia fringilla. Proin vitae aliquet orci. Quisque vehicula augue ligula, venenatis imperdiet metus fermentum quis. Nullam odio est, molestie a finibus vel, faucibus quis lectus. Fusce eu odio in elit convallis tristique. Integer consequat ac arcu vitae faucibus. In sagittis ac eros id luctus. Quisque sed malesuada nulla.',
+            description: 'A fun project designded to bring food to hungry coders. Working from the home page I created funtionality such as the "Pizza?" button that leads the user to build thier own custom pizza form. The project allowed me to practice SPA Single Page Applications including routing, forms, and testing with cypress.',
             contributions: [
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+                'Builtout wireframes, SPA functioinal components, hooks, methods, and routes to render a custom pizza',
+                'Used useRouteMatch to determine if a give component is on a certain page, set up routes like "/" for home link to the order form with a "/pizza" route ',
+                'Employed YUP form validations to guide optimal UX',
+                'Wrote Unit Tests with Cypress and jest.mock',
+                'Used component styling via React styled-components library'
             ],
             gitHub: 'https://github.com/rickmansfield/LambdaEats',
             deployed_site: 'https://lambda-eats-pizza.netlify.app/',
