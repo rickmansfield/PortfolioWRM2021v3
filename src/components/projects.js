@@ -103,7 +103,7 @@ export default function Projects() {
                 'Employed or minimized "side effects" as needed',
                 'Styled the app using multiple libraries demonstrating scalable advanced styling techniques'
             ],
-            gitHub: '',
+            gitHub: 'https://github.com/rickmansfield/NASA-Daily-Photo',
             deployed_site: 'https://rickmansfield.github.io/NASA-Daily-Photo/',
             card_image: 'https://th.bing.com/th/id/R.babed827cebebf236f71a2bf1f2bcd4c?rik=YRZhpbH0T81t9g&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f5%2f63%2fcbZ6VN.png&ehk=OXu1EXojjaThyf%2bXKdZ9NUCdHXCk6CL8EKmQl8FxGQ4%3d&risl=&pid=ImgRaw&r=0',
         },
