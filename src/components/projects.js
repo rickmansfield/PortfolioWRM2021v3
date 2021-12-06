@@ -94,7 +94,7 @@ export default function Projects() {
             ],
             gitHub: 'https://github.com/rickmansfield/10-12-1_Project_Jammming',
             deployed_site: 'https://rickmansfield.github.io/10-12-1_Project_Jammming/',
-            card_image: 'https://media.giphy.com/media/26gs7E0hBzuLhOrVC/giphy.gif',
+            card_image: 'https://media.giphy.com/media/KO0i8re81ViuI/giphy.gif',
         },
         {
             // title: 'Nasa Daily Photo',
