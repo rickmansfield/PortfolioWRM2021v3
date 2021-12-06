@@ -83,7 +83,7 @@ export default function Projects() {
             title: 'Spotify Jammming',
             description: 'That\'s Jammming with three "m\'s. This is a Javascript/React API with Spotify and it demos my knowledge of React components, passing state, and CRUD requests with the Spotify API. The application allows the user to search the Spotify Library, create a custom playlist, then save it to their real Spotify Account. ',
             contributions: [
-                'Achiteched Directory Structure initiated React app and Created Static Components',               
+                'Achiteched Directory Structure initiated React app and Created Static Components',
                 'Passed State through a series of components to render an array of tracks using constuctor fuctions and .map()',
                 'Enabled passing playlist to track list, adding tracks to playlist, removing tracks from playlist, changing of playlist name',
                 'Hooked searchbar to Spotify database via API',
@@ -121,7 +121,7 @@ export default function Projects() {
             card_image: UnderdogDevsImg,
         },
         {
-            title: 'Ravenous',
+            title: 'Ravenous Yelp API',
             description: 'A search engine home page demo. This project demos boostrapping with Create React App. It embodies creating a component based SPA from scratch. functionality may be disabled here as it relies on a YELP API key that may change from time to time. However, you may download this opensource publicly viewable repo and apply for your own activation key to paly around with the site. For now it is only ment to  demo base architecture, file structure, use of Class components and cross origin resource sharing CORS and API application key employment',
             contributions: [
                 'Obtained YELP API Key and wrote function to fetch local restaurant data',
@@ -133,8 +133,32 @@ export default function Projects() {
             card_image: RavenousImg,
         },
         {
-            title: 'Project Title7',
+            title: 'React Wars',
             description: 'In this demo I create a web page that presents a styled list of characters obtained from an API. Being able to render out data to a web page is a large part of what JavaScript developers do, this challenge demos the ability to achieve such a task.',
+            contributions: [
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+            ],
+            gitHub: '',
+            deployed_site: '',
+            card_image: '',
+        },
+        {
+            title: 'Lambda Eats',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus luctus rutrum molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut sit amet justo vel est semper laoreet. Sed ut euismod diam, quis eleifend dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum dignissim ante at enim lacinia fringilla. Proin vitae aliquet orci. Quisque vehicula augue ligula, venenatis imperdiet metus fermentum quis. Nullam odio est, molestie a finibus vel, faucibus quis lectus. Fusce eu odio in elit convallis tristique. Integer consequat ac arcu vitae faucibus. In sagittis ac eros id luctus. Quisque sed malesuada nulla.',
+            contributions: [
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+            ],
+            gitHub: '',
+            deployed_site: '',
+            card_image: '',
+        },
+        {
+            title: 'Great Idea',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus luctus rutrum molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut sit amet justo vel est semper laoreet. Sed ut euismod diam, quis eleifend dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum dignissim ante at enim lacinia fringilla. Proin vitae aliquet orci. Quisque vehicula augue ligula, venenatis imperdiet metus fermentum quis. Nullam odio est, molestie a finibus vel, faucibus quis lectus. Fusce eu odio in elit convallis tristique. Integer consequat ac arcu vitae faucibus. In sagittis ac eros id luctus. Quisque sed malesuada nulla.',
             contributions: [
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
