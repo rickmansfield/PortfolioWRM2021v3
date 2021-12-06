@@ -57,7 +57,7 @@ export default function Projects() {
             card_image: WaterMyPlantsPic,
         },
         {
-            title: 'Rock Paper Scisors',
+            title: 'Rock Paper Scissors',
             description: 'A fun online version of the classic Rock Paper Scisors Game. Play the computer or play your friends. This project demos simple algo logic like Fiz Buz Pop in basic JavaScript',
             contributions: [
                 'Initiated basic Javascript, HTML, CSS simple clean site',
@@ -66,7 +66,7 @@ export default function Projects() {
             ],
             gitHub: 'https://github.com/rickmansfield/RockPaperScisors_JS',
             deployed_site: 'https://rickmansfield.github.io/RockPaperScisors_JS/',
-            card_image: RockPaperScisorsImg,
+            card_image: 'https://media.giphy.com/media/3ohzdGnD5vAud1NCZW/giphy.gif',
         },
         {
             title: 'Chore Door',
