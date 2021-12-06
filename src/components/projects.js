@@ -8,7 +8,7 @@ import Background_keyboard from '../photos/background.jpg'
 import RockPaperScisorsImg from '../photos/RockPaperScisors.png'
 import ChoreDoorImg from '../photos/ChoreDoor.png'
 import JammingImg from '../photos/jammming.png'
-import NasaImg from '../photos/NASA1.jpg'
+import UnderdogDevsImg from '../photos/UnderdogDevs.JPG'
 
 
 export default function Projects() {
@@ -108,16 +108,16 @@ export default function Projects() {
             card_image: 'https://th.bing.com/th/id/R.babed827cebebf236f71a2bf1f2bcd4c?rik=YRZhpbH0T81t9g&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f5%2f63%2fcbZ6VN.png&ehk=OXu1EXojjaThyf%2bXKdZ9NUCdHXCk6CL8EKmQl8FxGQ4%3d&risl=&pid=ImgRaw&r=0',
         },
         {
-            title: 'Project Title7',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus luctus rutrum molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut sit amet justo vel est semper laoreet. Sed ut euismod diam, quis eleifend dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum dignissim ante at enim lacinia fringilla. Proin vitae aliquet orci. Quisque vehicula augue ligula, venenatis imperdiet metus fermentum quis. Nullam odio est, molestie a finibus vel, faucibus quis lectus. Fusce eu odio in elit convallis tristique. Integer consequat ac arcu vitae faucibus. In sagittis ac eros id luctus. Quisque sed malesuada nulla.',
+            title: 'Underdog Devs',
+            description: 'a community of software engineers supporting aspiring developers who come from disadvantaged backgrounds or who are formerly incarcerated',
             contributions: [
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+                'Lead a remote, cross-functional team of 18 to ship product features for a national non-profit ',
+                'Created & Maintained User Story Backlog, scoped product features, ticket assignment,  utilizing agile strategies incorporating scrum, sprint, and burndown methodologies which kept our team on time for feature deliveries  ',
+                'Pair programmed in both frontend and backend repositories to create a platform for the underprivileged to learn to code ',
             ],
-            gitHub: '',
+            gitHub: 'https://github.com/BloomTech-Labs/underdog-devs-fe-a',
             deployed_site: '',
-            card_image: '',
+            card_image: UnderdogDevsImg,
         },
         {
             title: 'Project Title7',
