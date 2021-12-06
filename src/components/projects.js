@@ -93,7 +93,7 @@ export default function Projects() {
             ],
             gitHub: 'https://github.com/rickmansfield/10-12-1_Project_Jammming',
             deployed_site: 'https://rickmansfield.github.io/10-12-1_Project_Jammming/',
-            card_image: JammingImg,
+            card_image: 'https://media.giphy.com/media/26gs7E0hBzuLhOrVC/giphy.gif',
         },
         {
             // title: 'Nasa Daily Photo',
@@ -142,8 +142,8 @@ export default function Projects() {
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
             ],
             gitHub: '',
-            deployed_site: '',
-            card_image: StarWarsImg,
+            deployed_site: 'https://star-wars-xi-roan.vercel.app/',
+            card_image: 'https://media.giphy.com/media/kesu1tiePAiGY/giphy.gif',
         },
         {
             title: 'Lambda Eats',
