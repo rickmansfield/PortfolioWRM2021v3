@@ -5,12 +5,12 @@ import PotluckFE from '../photos/Potluck2Backend.jpg'
 import PotluckBe from '../photos/food3.png'
 import WaterMyPlantsPic from '../photos/waterMyPlants2.PNG'
 import Background_keyboard from '../photos/background.jpg'
-import RockPaperScisorsImg from '../photos/RockPaperScisors.png'
+// import RockPaperScisorsImg from '../photos/RockPaperScisors.png'
 import ChoreDoorImg from '../photos/ChoreDoor.png'
-import JammingImg from '../photos/jammming.png'
+// import JammingImg from '../photos/jammming.png'
 import UnderdogDevsImg from '../photos/UnderdogDevs.JPG'
 import RavenousImg from '../photos/Ravenous.jpg'
-import StarWarsImg from '../photos/StarWars.png'
+// import StarWarsImg from '../photos/StarWars.png'
 
 
 export default function Projects() {
