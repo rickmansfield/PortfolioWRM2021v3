@@ -14,14 +14,14 @@ export default function Main() {
         // <StyleMain>
         <div id='Main'>
             <div className='main_background_img'>
-                {/* <div className='main_links'>
+                <div className='main_links'>
                     <a href='/'>Home</a>
                     <a href='#Projects'>Projects</a>
                     <a href='#About'>About</a>
                     <a href='#Contact'>Contact</a>
-                </div> */}
+                </div>
                 <div className='main_text'>
-                    {/* <h1>{user.name}</h1> */}
+                    <h1>{user.name}</h1>
                     <h2>{user.subtitle}</h2>
                     <h2>{user.subtitle2}</h2>
                 </div>
