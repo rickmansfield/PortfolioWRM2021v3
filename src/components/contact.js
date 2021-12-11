@@ -91,6 +91,4 @@ const StyleContact = styled.div`
     .footer_icon_wrapper a {
         margin: 0 10px;
     }
-}   
-
-`
+}`;
