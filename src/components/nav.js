@@ -1,31 +1,33 @@
-// import './nav.css';
 import React from 'react';
-import styled from 'styled-components'
+import './nav.css';
+// import styled from 'styled-components'
 
 export default function Nav() {
     const user = {
-        name: 'Name', // change 'userName' to Your Name
-        linkedIn: 'your LinkedIn URL Here'      // insert linkedIn profile link here
+        name: 'RICKKKKKKKK', 
+        linkedIn: 'https://www.linkedin.com/in/peacefulrick/'
     } 
 
     return (
-        <StyleNav>
+        //<StyleNav>
         <nav id='Nav'>
             <div className='user_name'>
                 <a href={user.linkedIn}>
                     {user.name}
                 </a>
+                <p>WHERE IS THIS</p>
             </div>
             <div className='links'>
                 <a href='/'>Home</a>
-                <a href='#projects'>Projects</a>
+                <a href='#projects'>Project</a>
                 <a href='#about'>About</a>
                 <a href='#contact'>Contact</a>
             </div>
         </nav>
-        </StyleNav>
+        //</StyleNav>
     )
 }
+/*
 const StyleNav = styled.div`
 #Nav {
     height: 100px;
@@ -64,3 +66,4 @@ const StyleNav = styled.div`
     font-size: 1.2rem;
 }
 `
+*/
