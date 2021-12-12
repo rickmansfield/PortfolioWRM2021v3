@@ -21,7 +21,7 @@ const StyledSkills = styled.div`
     display: flex;
     flex-direction: column;
 }
-.section_title {
+.section_title, p {
     height: 10%;
     color: var(--primary_color);
     font-family: var(--accent_font);
@@ -29,5 +29,4 @@ const StyledSkills = styled.div`
     margin: 25px auto;
 }
 @media screen and (max-width: 414px) {
-}
-`
+}`;
