@@ -164,14 +164,15 @@ export default function Projects() {
         },
         {
             title: 'Great Idea',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus luctus rutrum molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut sit amet justo vel est semper laoreet. Sed ut euismod diam, quis eleifend dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum dignissim ante at enim lacinia fringilla. Proin vitae aliquet orci. Quisque vehicula augue ligula, venenatis imperdiet metus fermentum quis. Nullam odio est, molestie a finibus vel, faucibus quis lectus. Fusce eu odio in elit convallis tristique. Integer consequat ac arcu vitae faucibus. In sagittis ac eros id luctus. Quisque sed malesuada nulla.',
+            description: 'The Great Idea project demos the power of the DOM Document Object Model. It emulates a content management system by controlling the content in the JavaScript file instead of the HTML file. This project is an example pointed at selecting elements and then updating them without touching the HTML file using the DOM.',
             contributions: [
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+                'Created Selectors to point data into elements',
+                'Updated the HTML with the JSON data',
+                'Utilized methods like `.appendChild()` and `.prepend()` to add two new items to the navigation system.',
+                'Customized styles throughout the page'
             ],
-            gitHub: '',
-            deployed_site: '',
+            gitHub: 'https://github.com/rickmansfield/Great-Idea',
+            deployed_site: 'https://rickmansfield.github.io/Great-Idea/',
             card_image: GreatIdeaImg,
         },
         // {
