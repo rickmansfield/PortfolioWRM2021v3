@@ -6,8 +6,10 @@ export default function skills() {
         <StyledSkills>
         <div id="Skills">
             <h3 className='section_title'> - SKILLS - </h3>
-            <p>Skills section under construction</p>
-            <p>Coming Soon</p>
+            <h4 className='section_title'>FRONTEND: </h4>
+            <p>React.js, Redux, Hooks, Context API, Jest, Yum, Axios, Javascript, HTML, CSS, Ant Design, RESTful API Design, JSX</p>
+            <h4 className='section_title'>BACKEND: </h4>
+            <p>Node.js, Express, SQL, PostgreSQL, Python, Git CLI, VS Code, Vercel, Heroku, Netlify, Postman</p>
         </div>
         </StyledSkills>
     )
