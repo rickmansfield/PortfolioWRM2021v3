@@ -64,5 +64,4 @@ const StyleAbout = styled.div`
     .txt_wrapper {
         width: 80%;
     }
-}
-`
+}`;
