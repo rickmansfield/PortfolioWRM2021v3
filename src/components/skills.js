@@ -4,17 +4,21 @@ import styled from "styled-components";
 export default function skills() {
     return (
         <StyledSkills>
-        <div id="Skills">
-            <h3 className='section_title'> - SKILLS - </h3>
-            <h4 className='sub_title'>FRONTEND: </h4>
-            <div className='txt_wrapper'>
-            <p>React.js, Redux, Hooks, Context API, Jest, Yum, Axios, Javascript, HTML, CSS, Ant Design, RESTful API Design, JSX</p>
+            <div id="Skills">
+                <h3 className='section_title'> - SKILLS - </h3>
+                <h4 className='sub_title'>FRONTEND: </h4>
+                <div className='txt_wrapper'>
+                    <p>React.js, Redux, Hooks, Context API, Jest, Yum, Axios, Javascript, HTML, CSS, Ant Design, RESTful API Design, JSX</p>
+                </div>
+                <h4 className='sub_title'>BACKEND: </h4>
+                <div className='txt_wrapper'>
+                    <p>Node.js, Express, SQL, PostgreSQL, Python, Git CLI, VS Code, Vercel, Heroku, Netlify, Postman</p>
+                </div>
+                <h4 className='sub_title'>ADDITIONAL: </h4>
+                <div className='txt_wrapper'>
+                    <p>Agile Project Management, Algorithms, Architecture, Debugging, Deployment, Technical Project Management</p>
+                </div>
             </div>
-            <h4 className='sub_title'>BACKEND: </h4>
-            <div className='txt_wrapper'>
-            <p>Node.js, Express, SQL, PostgreSQL, Python, Git CLI, VS Code, Vercel, Heroku, Netlify, Postman</p>
-            </div>
-        </div>
         </StyledSkills>
     )
 }
