@@ -118,7 +118,7 @@ export default function Projects() {
                 'Created & Maintained User Story Backlog, scoped product features, ticket assignment,  utilizing agile strategies incorporating scrum, sprint, and burndown methodologies which kept our team on time for feature deliveries  ',
                 'Pair programmed in both frontend and backend repositories to create a platform for the underprivileged to learn to code ',
             ],
-            gitHub: 'https://github.com/BloomTech-Labs/underdog-devs-fe-a',
+            gitHub: 'https://github.com/Underdog-Devs-Labs-2021',
             deployed_site: 'https://www.underdogdevs.org/',
             card_image: UnderdogDevsImg,
         },
