@@ -5,7 +5,7 @@ import styled from "styled-components";
 export default function About() {
     const userInfo = {
         profile_pic: Rick,
-        bio: 'Full Stack Web Developer & Computer Science Engineer with a practical understanding of HTML, CSS (responsive design), JavaScript, JSX, Node JS, React, Redux, SPA\'s, Express, SQLite3, MySQL, Postgres, Heroku, Python, MongoDB, and RESTful API & Responsive Design. Comfortable with New Features Implementation maintains and refactors existing code across various languages, frameworks, and databases. A growth mindset developer that works well with a team or independently in a remote setting',
+        bio: 'Full Stack Web Developer & Computer Science Engineer with a practical understanding of HTML, CSS (responsive design), C#, ASP.net, JavaScript, JSX, Node.js, React, Redux, SPA\'s, Express, SQLite3, MySQL, Postgres, Heroku, Python, MongoDB, and RESTful API & Responsive Design. Comfortable with New Features Implementation maintains and refactors existing code across various languages, frameworks, and databases. A growth mindset developer that works well with a team or independently in a remote setting',
     }
     
     return (
