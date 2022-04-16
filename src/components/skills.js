@@ -8,7 +8,7 @@ export default function skills() {
                 <h3 className='section_title'> - SKILLS - </h3>
                 <h4 className='sub_title'>FRONTEND: </h4>
                 <div className='txt_wrapper'>
-                    <p>React.js, Redux, Hooks, Context API, Jest, Yum, Axios, Javascript, HTML, CSS, Ant Design, RESTful API Design, JSX</p>
+                    <p>HTML, CSS, C#, ASP.Net, Javascript, React.js, Redux, Hooks, Context API, Jest, Yum, Axios, Ant Design, RESTful API Design, JSX</p>
                 </div>
                 <h4 className='sub_title'>BACKEND: </h4>
                 <div className='txt_wrapper'>
