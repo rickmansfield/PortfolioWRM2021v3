@@ -22,7 +22,7 @@ Here are some ideas to get you started:
 
 ## Skills:
 ### FRONTEND: 
-- React.js, Redux, Hooks, Context API, Jest, Yum, Axios, Javascript, HTML, CSS, Ant Design, RESTful API Design, JSX
+- HTML, CSS, Javascript, C#, ASP.Net, React.js, Redux, Hooks, Context API, Jest, Yum, Axios, Ant Design, RESTful API Design, JSX
 ### BACKEND:
 - Node.js, Express, SQL, PostgreSQL, Python, Git CLI, VS Code, Vercel, Heroku, Netlify, Postman
 ### ADDITIONAL SKILLS:
