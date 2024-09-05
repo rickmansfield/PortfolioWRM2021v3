@@ -39,6 +39,12 @@ https://unsplash.com/photos/-Xqckh_XVU4
     margin: 50px auto 50vh;
     color: var(--primary_color);
 }
+.main_text a {
+    font-family: var(--accent_font);
+    color: var(--primary_color);
+    font-size: 1.5rem;
+    margin: 10px 5px;
+}
 
 .main_text h1 {
     font-size: 4rem;

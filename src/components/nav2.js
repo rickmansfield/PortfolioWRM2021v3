@@ -1,10 +1,10 @@
 import React from 'react';
-import './nav.css';
+import './nav2.css';
 
-export default function Nav() {
+export default function Nav2() {
   const user = {
     name: 'Rick Mansfield',
-    linkedIn: 'https://www.linkedin.com/in/peacefulrick/'
+    linkedIn: 'https://www.linkedin.com/in/peacefulrick/TEST'
   }
 
   return (
@@ -16,7 +16,7 @@ export default function Nav() {
         <p></p>
       </div>
       <div className='links'>
-        <a href='/'>Home</a>
+        <a href='/'>Home TEST ME</a>
         <a href='#projects'>Project</a>
         <a href='#about'>About</a>
         <a href='#contact'>Contact</a>
