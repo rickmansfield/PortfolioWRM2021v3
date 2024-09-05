@@ -17,7 +17,8 @@ import GreatIdeaImg from '../photos/GreatIdea.png'
 export default function Projects() {
     const [displayProjects, setDisplayProjects] = useState(true)
 
-    const user_projects = [
+  //TODO: convert this to a database call  
+  const user_projects = [
         {
             title: 'Potluck Frontend',
             description: 'Tired of being the one stuck planning EVERY potluck? Well, let us make it easier. Welcome to The Potluck Planner. Coordinate who\'s comming and make sure your party is more than just chips. Our appliacation makes planing the date, time, location, guests and dishes they bring a sinch!',
