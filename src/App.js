@@ -1,16 +1,16 @@
 import './App.css';
 import About from './components/about';
 import Contact from './components/contact';
-import Main from './components/main';
-import Nav from './components/nav';
+import Nav1 from './components/Nav1';
+import Nav2 from './components/nav2';
 import Projects from './components/projects';
 import Skills from './components/skills'
 
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <Main />
+      <Nav2 />
+      <Nav1 />
       <Projects />
       <About />
       <Skills />
