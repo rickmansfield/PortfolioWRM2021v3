@@ -23,20 +23,18 @@
   margin-right: 10px;
 }
 
-.nav_links {
-  display: flex;
-  justify-content: flex-end;
-  gap: 20px;
-}
-
-.nav_links a {
+.nav_links button {
+  background: none;
+  border: none;
   font-family: var(--main_font);
   color: var(--primary_color);
   font-size: 1.2rem;
+  cursor: pointer;
   padding: 5px 10px;
   transition: border-bottom 0.3s ease;
 }
 
-.nav_links a:hover {
+.nav_links button:hover {
   border-bottom: 2px solid var(--primary_color);
 }
+

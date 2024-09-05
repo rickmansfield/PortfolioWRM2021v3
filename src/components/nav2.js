@@ -1,7 +1,7 @@
 import React from 'react';
 import './nav2.css';
 
-export default function Nav2({ isChecked, handleCheckboxChange }) {
+export default function Nav2({ isChecked, handleCheckboxChange, scrollToSection, sectionRefs }) {
   const user = {
     name: 'Rick Mansfield',
     linkedIn: 'https://www.linkedin.com/in/peacefulrick/TEST'
@@ -20,10 +20,10 @@ export default function Nav2({ isChecked, handleCheckboxChange }) {
         </a>
       </div>
       <div className='nav_links'>
-        <a href='/'>Home</a>
-        <a href='#projects'>Projects</a>
-        <a href='#about'>About</a>
-        <a href='#contact'>Contact</a>
+        <button onClick={() => scrollToSection(sectionRefs.projectsRef)}>Projects</button>
+        <button onClick={() => scrollToSection(sectionRefs.aboutRef)}>About</button>
+        <button onClick={() => scrollToSection(sectionRefs.skillsRef)}>Skills</button>
+        <button onClick={() => scrollToSection(sectionRefs.contactRef)}>Contact</button>
       </div>
     </nav>
   );
