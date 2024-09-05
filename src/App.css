@@ -26,7 +26,18 @@
 a:hover {
   border-bottom: 1px solid var(--primary_color)
 }
+.nav-toggle {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
 
+.nav-toggle button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
 
 
 

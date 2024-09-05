@@ -1,78 +1,42 @@
-#Main {
-    height: 100vh;
-    width: 100%;
-}
-/* 
-credit/For the background image = Nubelson Fernandes
-https://unsplash.com/photos/-Xqckh_XVU4
- */
-.main_background_img {
-    height: 100%;
-    width: 100%;
-    background-image: url('../photos/background.jpg');
-    /* background-image: url('../photos/DSC_9470.jpg'); */
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+#nav2 {
+  width: 100%;
+  background-color: var(--secondary_color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
 }
 
-.main_links {
-    width: 75%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10% auto 0;
+.user_info {
+  display: flex;
+  align-items: center;
 }
 
-.main_links a {
-    font-family: var(--accent_font);
-    color: var(--primary_color);
-    font-size: 1.5rem;
+.user_info a {
+  font-family: var(--accent_font);
+  color: var(--primary_color);
+  font-size: 1.5rem;
+  margin-right: 20px;
 }
 
-.main_text {
-    display: flex;
-    flex-direction: column;
-    margin: 50px auto 50vh;
-    color: var(--primary_color);
-}
-.main_text a {
-    font-family: var(--accent_font);
-    color: var(--primary_color);
-    font-size: 1.5rem;
-    margin: 10px 5px;
+.user_info input {
+  margin-right: 10px;
 }
 
-.main_text h1 {
-    font-size: 4rem;
-    font-family: var(--accent_font);
-
+.nav_links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
 }
 
-.main_text h2 {
-    font-size: 2rem;
-    font-family: var(--accent_font);
+.nav_links a {
+  font-family: var(--main_font);
+  color: var(--primary_color);
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  transition: border-bottom 0.3s ease;
 }
 
-
-@media screen and (max-width: 414px) {
-    .main_links {
-        width: 75%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-        margin: 10% auto 0;
-    }
-    
-    .main_links a {
-        width: 40%;
-        font-family: var(--accent_font);
-        color: var(--primary_color);
-        font-size: 1.5rem;
-        margin: 10px 5px;
-    }
+.nav_links a:hover {
+  border-bottom: 2px solid var(--primary_color);
 }
