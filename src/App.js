@@ -42,7 +42,7 @@ function App() {
       )}
 
       {/* Render sections with refs */}
-      <div ref={projectsRef}>
+      <div className='app-sections' ref={projectsRef}>
         <Projects />
       </div>
       <div ref={aboutRef}>
