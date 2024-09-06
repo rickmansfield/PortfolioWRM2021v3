@@ -34,7 +34,7 @@ export default function Nav2({ isChecked, handleCheckboxChange, scrollToSection,
           <img src={BackImg} alt="Background" className="background-img" />
         </picture>
         <div className="overlay-text">
-          <h2>Clean code. Efficient solutions.</h2>
+          <h1>Clean code. Efficient solutions.</h1>
           <p>Ready to build the future</p>
         </div>
       </div>
