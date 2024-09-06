@@ -7,10 +7,6 @@
   padding: 10px 20px;
 }
 
-.user_info {
-  display: flex;
-  align-items: center;
-}
 
 .user_info a {
   font-family: var(--accent_font);
@@ -36,5 +32,38 @@
 
 .nav_links button:hover {
   border-bottom: 2px solid var(--primary_color);
+}
+.image-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.background-img {
+  width: 100%;
+  height: auto;
+}
+.overlay-text {
+  position: absolute;
+  top: 20%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-family: var(--accent_font);
+}
+
+.overlay-text h1 {
+  font-size: 2rem;
+  font-family: var(--accent_font);
+}
+
+.overlay-text p {
+  font-size: 1.2rem;
+}
+
+
+.user_info {
+  display: flex;
+  align-items: center;
 }
 
