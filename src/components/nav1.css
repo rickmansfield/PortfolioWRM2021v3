@@ -15,20 +15,33 @@
   align-items: center;
 }
 
-.user_info {
+.nav1_user_info{
   display: flex;
   align-items: center;
+  color: var(--primary_color) ;
+  input {
+    margin-right: 1rem;
+  }
 }
 
-.main_links {
-  width: 75%;
+.nav1_links {
+  position: absolute;
+  top: 25%; 
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin: 10% auto 0;
+  width: 75%;
+  color: var(--primary_color);
 }
 
-.main_text {
+
+.nav1_text {
   margin: 50px auto;
+  color: var(--primary_color) ;
+}
+.nav1_user_info a, 
+.nav1_links a, 
+.nav1_text a {
   color: var(--primary_color);
 }
