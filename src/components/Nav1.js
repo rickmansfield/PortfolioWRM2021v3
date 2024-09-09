@@ -12,7 +12,7 @@ export default function Nav1({ isChecked, handleCheckboxChange }) {
   return (
     <div id='nav1'>
       <div className='nav1_background_img'>
-        <div className='user_info'>
+        <div className='nav1_user_info'>
           <input
             type='checkbox'
             checked={isChecked}
@@ -22,13 +22,13 @@ export default function Nav1({ isChecked, handleCheckboxChange }) {
             <h1>{user.name}</h1>
           </a>
         </div>
-        <div className='main_links'>
+        <div className='nav1_links'>
           <a href='/'>Home</a>
           <a href='#Projects'>Projects</a>
           <a href='#About'>About</a>
           <a href='#Contact'>Contact</a>
         </div>
-        <div className='main_text'>
+        <div className='nav1_text'>
           <a href={user.linkedIn}>
             <h2>{user.subtitle}</h2>
             <h2>{user.subtitle2}</h2>
