@@ -1,5 +1,4 @@
 #nav2 {
-  width: 100%;
   background-color: var(--secondary_color);
   display: flex;
   justify-content: space-between;
@@ -8,14 +7,14 @@
 }
 
 
-.user_info a {
+.nav-2-user_info a {
   font-family: var(--accent_font);
   color: var(--primary_color);
   font-size: 1.5rem;
   margin-right: 20px;
 }
 
-.user_info input {
+.nav2-user_info input {
   margin-right: 10px;
 }
 
@@ -33,19 +32,23 @@
 .nav_links button:hover {
   border-bottom: 2px solid var(--primary_color);
 }
-.image-container {
+.nav2-img-container {
   position: relative;
   width: 100%;
   height: auto;
 }
-.background-img {
-  width: 100%;
-  height: auto;
+
+
+.nav2-background-img {
+  width: 100%; /* Use percentage-based width to ensure it scales with the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensures no additional spacing below the image */
 }
+
 .overlay-text {
   position: absolute;
   top: 20%;
-  left: 70%;
+  left: 50%; /* Centering the text horizontally */
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
@@ -60,6 +63,7 @@
 .overlay-text p {
   font-size: 1.5rem;
 }
+
 
 
 .user_info {

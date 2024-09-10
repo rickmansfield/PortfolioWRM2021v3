@@ -11,7 +11,7 @@ export default function Nav2({ isChecked, handleCheckboxChange, scrollToSection,
   return (
     <>
       <nav id='nav2'>
-        <div className='user_info'>
+        <div className='nav2-user_info'>
           <input
             type='checkbox'
             checked={isChecked}
@@ -21,19 +21,19 @@ export default function Nav2({ isChecked, handleCheckboxChange, scrollToSection,
             {user.name}
           </a>
         </div>
-        <div className='nav_links'>
+        <div className='nav2_links'>
           <button onClick={() => scrollToSection(sectionRefs.projectsRef)}>Projects</button>
           <button onClick={() => scrollToSection(sectionRefs.aboutRef)}>About</button>
           <button onClick={() => scrollToSection(sectionRefs.skillsRef)}>Skills</button>
           <button onClick={() => scrollToSection(sectionRefs.contactRef)}>Contact</button>
         </div>
       </nav>
-      <div className="image-container">
+      <div className="nav2-img-container">
         <picture>
           <source srcSet={BackImg} type="image/jpg" />
-          <img src={BackImg} alt="Background" className="background-img" />
+          <img src={BackImg} alt="Background" className="nav2-background-img" />
         </picture>
-        <div className="overlay-text">
+        <div className="nav2-overlay-text">
           <h1>Clean code. Efficient solutions.</h1>
           <p>Ready to build the future</p>
         </div>
