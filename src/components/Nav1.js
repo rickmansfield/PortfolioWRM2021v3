@@ -30,7 +30,7 @@ export default function Nav1({ isChecked, handleCheckboxChange }) {
         </div>
         <div className='nav1_text'>
           <a href={user.linkedIn}>
-            <h2>{user.subtitle}</h2>
+            <h1>{user.subtitle}</h1>
             <h2>{user.subtitle2}</h2>
           </a>
         </div>
