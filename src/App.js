@@ -8,7 +8,7 @@ import Projects from './components/projects';
 import Skills from './components/skills';
 
 function App() {
-  const [showNav2, setShowNav2] = useState(false);
+  const [showNav2, setShowNav2] = useState(true);
 
   const handleCheckboxChange = () => {
     setShowNav2(prevState => !prevState);
