@@ -8,19 +8,17 @@ import Projects from './components/projects';
 import Skills from './components/skills';
 
 function App() {
-  const [showNav2, setShowNav2] = useState(true);
+  const [showNav2, setShowNav2] = useState(false);
 
   const handleCheckboxChange = () => {
     setShowNav2(prevState => !prevState);
   };
 
-  // Create refs for each section
   const projectsRef = useRef(null);
   const aboutRef = useRef(null);
   const skillsRef = useRef(null);
   const contactRef = useRef(null);
 
-  // Function to handle scroll
   const scrollToSection = (sectionRef) => {
     sectionRef.current.scrollIntoView({ behavior: 'smooth' });
   };
