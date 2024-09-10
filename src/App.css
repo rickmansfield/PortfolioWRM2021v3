@@ -22,7 +22,7 @@
   align-items: center;
   text-align: center;
   width: 100%;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 a:hover {
@@ -40,6 +40,13 @@ a:hover {
   font-size: 16px;
   cursor: pointer;
 }
+/* .content-wrapper {
+  flex-grow: 1; 
+  width: 100%;
+} */
 
+/* .app-sections {
+  width: 100%;
+} */
 
 
