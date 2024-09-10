@@ -29,35 +29,34 @@ function App() {
     <div className="App">
       <div className="navs">
 
-      {showNav2 ? (
-        <Nav2 
-        isChecked={showNav2} 
-        handleCheckboxChange={handleCheckboxChange} 
-        scrollToSection={scrollToSection} 
-        sectionRefs={{ projectsRef, aboutRef, skillsRef, contactRef }}
-        />
-      ) : (
-        <Nav1 
-        isChecked={!showNav2} 
-        handleCheckboxChange={handleCheckboxChange} 
-        />
-      )
-    }
-    </div>
-        <div className='app-sections' ref={projectsRef}>
-
+        {showNav2 ? (
+          <Nav2
+            isChecked={showNav2}
+            handleCheckboxChange={handleCheckboxChange}
+            scrollToSection={scrollToSection}
+            sectionRefs={{ projectsRef, aboutRef, skillsRef, contactRef }}
+          />
+        ) : (
+          <Nav1
+            isChecked={!showNav2}
+            handleCheckboxChange={handleCheckboxChange}
+          />
+        )
+        }
+      </div>
+      <div className='app-sections' ref={projectsRef}>
         <Projects />
-      <div ref={aboutRef}>
-        <About />
-      </div>
-      <div ref={skillsRef}>
-        <Skills />
-      </div>
-      <div ref={contactRef}>
-        <Contact />
+        <div ref={aboutRef}>
+          <About />
+        </div>
+        <div ref={skillsRef}>
+          <Skills />
+        </div>
+        <div ref={contactRef}>
+          <Contact />
+        </div>
       </div>
     </div>
-      </div>
   );
 }
 
