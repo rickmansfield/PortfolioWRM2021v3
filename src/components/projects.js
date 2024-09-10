@@ -5,14 +5,10 @@ import PotluckFE from '../photos/Potluck2Backend.jpg'
 import PotluckBe from '../photos/food3.png'
 import WaterMyPlantsPic from '../photos/waterMyPlants2.PNG'
 import Background_keyboard from '../photos/background.jpg'
-// import RockPaperScisorsImg from '../photos/RockPaperScisors.png'
 import ChoreDoorImg from '../photos/ChoreDoor.png'
-// import JammingImg from '../photos/jammming.png'
 import UnderdogDevsImg from '../photos/UnderdogDevs.JPG'
 import RavenousImg from '../photos/Ravenous.jpg'
-// import StarWarsImg from '../photos/StarWars.png'
 import GreatIdeaImg from '../photos/GreatIdea.png'
-
 
 export default function Projects() {
     const [displayProjects, setDisplayProjects] = useState(true)
@@ -176,18 +172,6 @@ export default function Projects() {
             deployed_site: 'https://rickmansfield.github.io/Great-Idea/',
             card_image: GreatIdeaImg,
         },
-        // {
-        //     title: 'Project Title7', 
-        //     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus luctus rutrum molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut sit amet justo vel est semper laoreet. Sed ut euismod diam, quis eleifend dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum dignissim ante at enim lacinia fringilla. Proin vitae aliquet orci. Quisque vehicula augue ligula, venenatis imperdiet metus fermentum quis. Nullam odio est, molestie a finibus vel, faucibus quis lectus. Fusce eu odio in elit convallis tristique. Integer consequat ac arcu vitae faucibus. In sagittis ac eros id luctus. Quisque sed malesuada nulla.', 
-        //     contributions: [    
-        //         'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
-        //         'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
-        //         'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
-        //     ],
-        //     gitHub: '', 
-        //     deployed_site: '',
-        //     card_image: '',
-        // },
         {
             title: 'Portfolio.v3',
             description: 'Yup! My Portfolio is 100% created and built by me.',
@@ -218,7 +202,3 @@ export default function Projects() {
         </div>
     )
 }
-/*
-            <div className='background_img'>
-            <img src={user_projects.card_image} alt='Potluck Meal' /></div>
-*/
