@@ -39,12 +39,11 @@ function App() {
           isChecked={!showNav2} 
           handleCheckboxChange={handleCheckboxChange} 
         />
-      )}
+      )
+      }
 
-      {/* Render sections with refs */}
       <div className='app-sections' ref={projectsRef}>
         <Projects />
-      </div>
       <div ref={aboutRef}>
         <About />
       </div>
@@ -55,6 +54,7 @@ function App() {
         <Contact />
       </div>
     </div>
+      </div>
   );
 }
 
