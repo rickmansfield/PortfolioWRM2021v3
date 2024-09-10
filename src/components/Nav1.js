@@ -10,7 +10,7 @@ export default function Nav1({ isChecked, handleCheckboxChange }) {
   };
 
   return (
-    <div id='nav1'>
+    <div className='nav1'>
       <div className='nav1_background_img'>
         <div className='nav1_user_info'>
           <input

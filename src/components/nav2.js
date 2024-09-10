@@ -10,7 +10,7 @@ export default function Nav2({ isChecked, handleCheckboxChange, scrollToSection,
 
   return (
     <>
-      <nav id='nav2'>
+      <nav className='nav2'>
         <div className='nav2-user_info'>
           <input
             type='checkbox'
@@ -35,7 +35,7 @@ export default function Nav2({ isChecked, handleCheckboxChange, scrollToSection,
         </picture>
         <div className="nav2-overlay-text">
           <h1>Clean code. Efficient solutions.</h1>
-          <p>Ready to build the future</p>
+          <p>Ready to build the future together.</p>
         </div>
       </div>
     </>
