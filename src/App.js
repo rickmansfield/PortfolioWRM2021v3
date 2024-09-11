@@ -43,7 +43,7 @@ function App() {
         }
       </div>
       <div className='app-sections' ref={projectsRef}>
-        <Projects />
+      <Projects scrollToSection={scrollToSection} projectsRef={projectsRef} />
         <div ref={aboutRef}>
           <About />
         </div>
