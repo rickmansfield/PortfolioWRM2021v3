@@ -24,7 +24,6 @@ export default function About() {
 const StyleAbout = styled.div`
 #About {
     min-height: 100vh;
-    width: 100vw;
     background-color: #001220;
     display: flex;
     flex-direction: column;

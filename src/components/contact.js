@@ -32,7 +32,6 @@ export default function Contact() {
 const StyleContact = styled.div`
 #Contact {
     height: 15vh;
-    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;

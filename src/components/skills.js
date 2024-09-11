@@ -26,7 +26,6 @@ export default function skills() {
 const StyledSkills = styled.div`
 #Skills {
     min-height: 100vh;
-    width: 100vw;
     background-color: #001220;
     display: flex;
     flex-direction: column;
