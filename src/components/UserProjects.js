@@ -167,7 +167,7 @@ export const user_projects = [
   },
   {
       title: 'Portfolio.v3',
-      description: 'Yup! My Portfolio is 100% created and built by me.',
+      description: 'Yup! My Portfolio is 100% created and built by me. Fun little secret. Click the checkbox (at the top) by my name for alternative navigation. Then review the README.md at GitHub for more details on the navigation state management and other fun project goodies.',
       contributions: [
           'Initiated and Built the project end to end',
           'Lead Team of ONE, fun chuckle',
