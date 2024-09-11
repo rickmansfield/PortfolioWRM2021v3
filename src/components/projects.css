@@ -1,4 +1,5 @@
 #Projects {
+  position: relative;
     min-height: 100vh;
     background-image: url('../photos/stacked-peaks-haikei.svg');
     background-size: cover;
@@ -20,7 +21,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    margin: 25px auto 100px;
+    margin: 5px auto 100px;
 }
 
 .img_title {

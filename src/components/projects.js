@@ -15,7 +15,7 @@ export default function Projects({ scrollToSection, projectsRef }) {
       setTimeout(() => {
         setIsFadingIn(true);
       }, 300);
-    }, 200);
+    }, 100);
   };
 
   const handleExit = () => {
