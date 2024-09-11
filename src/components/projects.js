@@ -11,15 +11,15 @@ export default function Projects({ scrollToSection, projectsRef }) {
     setActiveProject(project);
     setIsFadingIn(false);
     setTimeout(() => {
-      scrollToSection(projectsRef); 
+      scrollToSection(projectsRef);
       setTimeout(() => {
         setIsFadingIn(true);
-      }, 300); 
+      }, 300);
     }, 200);
   };
 
   const handleExit = () => {
-      setActiveProject(null);
+    setActiveProject(null);
   };
 
   return (
@@ -28,18 +28,18 @@ export default function Projects({ scrollToSection, projectsRef }) {
 
         <h3 className='section_title'>- PROJECTS -</h3>
       )
-        }
+      }
 
-          {activeProject ? (
-              <Project proj={activeProject} handleExit={handleExit}isFadingIn={isFadingIn}/>
-          ) : (
-              <div className='projects_wrapper'>
-                  {user_projects.map((proj, index) => (
-                      <Project proj={proj} key={index} onClick={() => handleProjectClick(proj)} />
-                  ))}
-              </div>
-          )}
-      </div>
+      {activeProject ? (
+        <Project proj={activeProject} handleExit={handleExit} isFadingIn={isFadingIn} />
+      ) : (
+        <div className='projects_wrapper'>
+          {user_projects.map((proj, index) => (
+            <Project proj={proj} key={index} onClick={() => handleProjectClick(proj)} />
+          ))}
+        </div>
+      )}
+    </div>
   );
 }
 

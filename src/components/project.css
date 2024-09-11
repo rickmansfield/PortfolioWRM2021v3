@@ -22,7 +22,6 @@
 }
 
 .project .background_img {
-    /* background-image: url('https://picsum.photos/200/300?green'); */
     background-size: cover;
     background-position: center;
     width: 100%;

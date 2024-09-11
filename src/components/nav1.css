@@ -36,11 +36,11 @@
   color: var(--primary_color);
 }
 
-
 .nav1_text {
   margin: 50px auto;
   color: var(--primary_color) ;
 }
+
 .nav1_user_info a, 
 .nav1_links a, 
 .nav1_text a {
