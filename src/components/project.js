@@ -1,70 +1,64 @@
-import React, { useState } from 'react'
+import React from 'react';
 import './project.css';
 
-export default function Project(props) {
-    const [isActive, setIsActive] = useState(false)
-    const {
-        gitHub,
-        title,
-        description,
-        contributions,
-        deployed_site,
-        card_image,
-    } = props.proj
+export default function Project({ proj, onClick, handleExit, isFadingIn }) {
+  const {
+    gitHub,
+    title,
+    description,
+    contributions,
+    deployed_site,
+    card_image,
+  } = proj;
 
-    const handleClick = () => {
-        setIsActive(true)
-        // props.setDisplayProjects(false)
-    }
-
-    const handleExit = e => {
-        setIsActive(!isActive)
-        e.stopPropagation()
-        // props.setDisplayProjects(true)
-    }
-
-    return (
-        <div
-            className={isActive ? 'active_project' : 'project'}
-            onClick={handleClick}
-        >
-            <div className='exit_icon' onClick={handleExit}>
-                <i className="lni lni-close"></i>
-            </div>
-            <div
-                className='background_img'
-                style={{ backgroundImage: 'url(' + card_image + ')' }}>
-                <h3 className='img_title'>{title}</h3>
-            </div>
-            <div>
-                {gitHub && <span className='icon_wrap'>
-                    <a href={gitHub}>
-                        <i className="lni lni-github-original"></i>
-                    </a>
-                </span>}
-                <h3 className='non_img_title'>
-                    {title}
-                </h3>
-                {deployed_site && <span className='icon_wrap'>
-                    <a href={deployed_site}>
-                        <i className="lni lni-website"></i>
-                    </a>
-                </span>}
-            </div>
-            <div className='proj_texts'>
-                <p className='description'>{description}</p>
-                <div className='contributions'>{contributions.map((contribution, index) => {
-                    return (
-                        <p
-                            className='contribution'
-                            key={index}
-                        >
-                            • {contribution}
-                        </p>
-                    )
-                })}
-                </div>
-            </div>
+  return (
+    <div className={handleExit ? `active_project ${isFadingIn ? 'fade-in' : ''}` : 'project'} onClick={onClick}>
+      {handleExit && (
+        <div className='exit_icon' onClick={(e) => {
+          e.stopPropagation();
+          handleExit();
+        }}>
+          <i className="lni lni-close"></i>
         </div>
-    )
+      )}
+      <div
+        className='background_img'
+        style={{ backgroundImage: `url(${card_image})` }}>
+        <h3 className='img_title'>{title}</h3>
+      </div>
+      {handleExit && (
+        <div>
+          {gitHub && (
+            <span className='icon_wrap'>
+              <a href={gitHub}>
+                <i className="lni lni-github-original"></i>
+              </a>
+            </span>
+          )}
+          <h3 className='non_img_title'>
+            {title}
+          </h3>
+          {deployed_site && (
+            <span className='icon_wrap'>
+              <a href={deployed_site}>
+                <i className="lni lni-website"></i>
+              </a>
+            </span>
+          )}
+        </div>
+      )}
+      {handleExit && (
+        <div className='proj_texts'>
+          <p className='description'>{description}</p>
+          <div className='contributions'>
+            {contributions.map((contribution, index) => (
+              <p className='contribution' key={index}>
+                • {contribution}
+              </p>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
 }

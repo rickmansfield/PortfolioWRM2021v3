@@ -48,11 +48,17 @@
     position: absolute;
     right: 10vw;
     z-index: 100;
-    background: rgb(0, 0, 0, .9);
     display: flex;
     flex-direction: column;
     align-items: center;
-    transition: all .2s ease-in;
+    transition: all 0.3s ease-in-out;
+    opacity: 0; /* Start hidden */
+    border: 1px solid white;
+}
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.8s ease-in-out;
 }
 
 .active_project .non_img_title,
