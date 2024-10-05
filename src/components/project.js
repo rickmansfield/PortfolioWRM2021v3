@@ -12,12 +12,33 @@ export default function Project({ proj, onClick, handleExit, isFadingIn }) {
   } = proj;
 
   return (
-    <div className={handleExit ? `active_project ${isFadingIn ? 'fade-in' : ''}` : 'project'} onClick={onClick}>
+    <div
+      className={handleExit ? `active_project ${isFadingIn ? 'fade-in' : ''}` : 'project'}
+      onClick={onClick}
+      onKeyDown={(e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          onClick(e);
+        }
+      }}
+      tabIndex={0}
+      role="button"
+    >
       {handleExit && (
-        <div className='exit_icon' onClick={(e) => {
-          e.stopPropagation();
-          handleExit();
-        }}>
+        <div
+          className='exit_icon'
+          onClick={(e) => {
+            e.stopPropagation();
+            handleExit();
+          }}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.stopPropagation();
+              handleExit();
+            }
+          }}
+          tabIndex={0}
+          role="button"
+        >
           <i className="lni lni-close"></i>
         </div>
       )}
