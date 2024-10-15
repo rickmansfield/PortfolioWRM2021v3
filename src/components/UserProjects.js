@@ -12,12 +12,14 @@ import AIShowcaseThinker from '../photos/AI-Showcase-Purple-Thinker.png';
 export const user_projects = [
   {
     title: 'AI Showcase',
-    description: 'Tired of being the one stuck planning EVERY potluck? Well, let us make it easier. Welcome to The Potluck Planner. Coordinate who\'s comming and make sure your party is more than just chips. Our appliacation makes planing the date, time, location, guests and dishes they bring a sinch!',
+    description: 'A modern web app demonstrating AI-based features like product recommendations, sentiment analysis, and more. Built with React.js, this project showcases advanced frontend techniques and API integrations.',
     contributions: [
-        'Frontend Developer | Technical Project Manager',
-        'Wrote production-ready code using ReactJS, Redux, and CSS to build single-page applications SPA’s',
-        'Approached all coding challenges using pair programming, agile software development Git workflow minimizing bugs',
-        'Designed original UX for mobile, tablet, and PC  from ideation to wireframing, to a final responsive product',
+        'Full-stack Developer | Technical Project Manager',
+        'Designed and developed the entire application from scratch using React.js with responsive design for mobile, tablet, and desktop views',
+        'Integrated AI-powered features such as product recommendations and sentiment analysis using APIs',
+        'Deployed the frontend on Vercel with CI/CD integration and optimized performance for production',
+        'Implemented dynamic routing, state management using React Hooks, and API fetching with error handling',
+        'Designed UX to focus on simplicity and user-friendly interactions with clean, minimal UI'
     ],
     gitHub: 'https://github.com/rickmansfield/ai-showcase',
     deployed_site: 'https://ai-showcase-kappa.vercel.app/',
@@ -25,17 +27,19 @@ export const user_projects = [
   },
   {
     title: 'AI Showcase Server',
-    description: 'Tired of being the one stuck planning EVERY potluck? Well, let us make it easier. Welcome to The Potluck Planner. Coordinate who\'s comming and make sure your party is more than just chips. Our appliacation makes planing the date, time, location, guests and dishes they bring a sinch!',
+    description: 'A Node.js/Express backend that powers the AI Showcase frontend by providing sentiment analysis and other AI-related features. The server also handles API requests and performs data processing using external libraries.',
     contributions: [
-        'Backend Developer | Technical Project Manager',
-        'Wrote production-ready code using ReactJS, Redux, and CSS to build single-page applications SPA’s',
-        'Approached all coding challenges using pair programming, agile software development Git workflow minimizing bugs',
-        'Designed original UX for mobile, tablet, and PC  from ideation to wireframing, to a final responsive product',
+        'Backend Developer | Technical Architect',
+        'Architected and developed the backend server using Node.js and Express from scratch',
+        'Implemented NLP (Natural Language Processing) for sentiment analysis using the "natural" and "sentiment" libraries',
+        'Deployed the server on Vercel with proper CORS configuration and security best practices (helmet, body-parser)',
+        'Configured API routes and handled data fetching to serve AI-based results to the React frontend',
+        'Optimized backend performance and ensured smooth integration with the frontend, facilitating fast and secure communication',
     ],
     gitHub: 'https://github.com/rickmansfield/ai-showcase-server',
     deployed_site: 'https://ai-showcase-server.vercel.app/',
     card_image: AIShowcaseThinker,
-},
+  },
   {
       title: 'Potluck Frontend',
       description: 'Tired of being the one stuck planning EVERY potluck? Well, let us make it easier. Welcome to The Potluck Planner. Coordinate who\'s comming and make sure your party is more than just chips. Our appliacation makes planing the date, time, location, guests and dishes they bring a sinch!',
