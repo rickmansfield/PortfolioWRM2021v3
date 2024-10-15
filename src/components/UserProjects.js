@@ -6,8 +6,40 @@ import ChoreDoorImg from '../photos/ChoreDoor.png';
 import UnderdogDevsImg from '../photos/UnderdogDevs.JPG';
 import RavenousImg from '../photos/Ravenous.jpg';
 import GreatIdeaImg from '../photos/GreatIdea.png';
+import AIShocaseHands from '../photos/AI-Showcase-Purple-hands.png';
+import AIShowcaseThinker from '../photos/AI-Showcase-Purple-Thinker.png';
 
 export const user_projects = [
+  {
+    title: 'AI Showcase',
+    description: 'UNDER CONSTRUCTION: A modern web app demonstrating AI-based features like product recommendations, sentiment analysis, and more. Built with React.js, this project showcases advanced frontend techniques and API integrations.',
+    contributions: [
+        'Full-stack Developer | Technical Project Manager',
+        'Designed and developed the entire application from scratch using React.js with responsive design for mobile, tablet, and desktop views',
+        'Integrated AI-powered features such as product recommendations and sentiment analysis using APIs',
+        'Deployed the frontend on Vercel with CI/CD integration and optimized performance for production',
+        'Implemented dynamic routing, state management using React Hooks, and API fetching with error handling',
+        'Designed UX to focus on simplicity and user-friendly interactions with clean, minimal UI'
+    ],
+    gitHub: 'https://github.com/rickmansfield/ai-showcase',
+    deployed_site: 'https://ai-showcase-kappa.vercel.app/',
+    card_image: AIShocaseHands,
+  },
+  {
+    title: 'AI Showcase Server',
+    description: 'A Node.js/Express backend that powers the AI Showcase frontend by providing sentiment analysis and other AI-related features. The server also handles API requests and performs data processing using external libraries.',
+    contributions: [
+        'Backend Developer | Technical Architect',
+        'Architected and developed the backend server using Node.js and Express from scratch',
+        'Implemented NLP (Natural Language Processing) for sentiment analysis using the "natural" and "sentiment" libraries',
+        'Deployed the server on Vercel with proper CORS configuration and security best practices (helmet, body-parser)',
+        'Configured API routes and handled data fetching to serve AI-based results to the React frontend',
+        'Optimized backend performance and ensured smooth integration with the frontend, facilitating fast and secure communication',
+    ],
+    gitHub: 'https://github.com/rickmansfield/ai-showcase-server',
+    deployed_site: 'https://ai-showcase-server.vercel.app/',
+    card_image: AIShowcaseThinker,
+  },
   {
       title: 'Potluck Frontend',
       description: 'Tired of being the one stuck planning EVERY potluck? Well, let us make it easier. Welcome to The Potluck Planner. Coordinate who\'s comming and make sure your party is more than just chips. Our appliacation makes planing the date, time, location, guests and dishes they bring a sinch!',
@@ -53,7 +85,7 @@ export const user_projects = [
       contributions: [
           'Initiated basic Javascript, HTML, CSS simple clean site',
           'Architected alog logic and employed jquery animations',
-          'Deployed using Github Pages',
+          'Deployed using Github Pages, Vercel & Netlify',
       ],
       gitHub: 'https://github.com/rickmansfield/RockPaperScisors_JS',
       deployed_site: 'https://rickmansfield.github.io/RockPaperScisors_JS/',
