@@ -6,8 +6,36 @@ import ChoreDoorImg from '../photos/ChoreDoor.png';
 import UnderdogDevsImg from '../photos/UnderdogDevs.JPG';
 import RavenousImg from '../photos/Ravenous.jpg';
 import GreatIdeaImg from '../photos/GreatIdea.png';
+import AIShocaseHands from '../photos/AI-Showcase-Purple-hands.png';
+import AIShowcaseThinker from '../photos/AI-Showcase-Purple-Thinker.png';
 
 export const user_projects = [
+  {
+    title: 'AI Showcase',
+    description: 'Tired of being the one stuck planning EVERY potluck? Well, let us make it easier. Welcome to The Potluck Planner. Coordinate who\'s comming and make sure your party is more than just chips. Our appliacation makes planing the date, time, location, guests and dishes they bring a sinch!',
+    contributions: [
+        'Frontend Developer | Technical Project Manager',
+        'Wrote production-ready code using ReactJS, Redux, and CSS to build single-page applications SPA’s',
+        'Approached all coding challenges using pair programming, agile software development Git workflow minimizing bugs',
+        'Designed original UX for mobile, tablet, and PC  from ideation to wireframing, to a final responsive product',
+    ],
+    gitHub: 'https://github.com/rickmansfield/ai-showcase',
+    deployed_site: 'https://ai-showcase-kappa.vercel.app/',
+    card_image: AIShocaseHands,
+  },
+  {
+    title: 'AI Showcase Server',
+    description: 'Tired of being the one stuck planning EVERY potluck? Well, let us make it easier. Welcome to The Potluck Planner. Coordinate who\'s comming and make sure your party is more than just chips. Our appliacation makes planing the date, time, location, guests and dishes they bring a sinch!',
+    contributions: [
+        'Backend Developer | Technical Project Manager',
+        'Wrote production-ready code using ReactJS, Redux, and CSS to build single-page applications SPA’s',
+        'Approached all coding challenges using pair programming, agile software development Git workflow minimizing bugs',
+        'Designed original UX for mobile, tablet, and PC  from ideation to wireframing, to a final responsive product',
+    ],
+    gitHub: 'https://github.com/rickmansfield/ai-showcase-server',
+    deployed_site: 'https://ai-showcase-server.vercel.app/',
+    card_image: AIShowcaseThinker,
+},
   {
       title: 'Potluck Frontend',
       description: 'Tired of being the one stuck planning EVERY potluck? Well, let us make it easier. Welcome to The Potluck Planner. Coordinate who\'s comming and make sure your party is more than just chips. Our appliacation makes planing the date, time, location, guests and dishes they bring a sinch!',
@@ -53,7 +81,7 @@ export const user_projects = [
       contributions: [
           'Initiated basic Javascript, HTML, CSS simple clean site',
           'Architected alog logic and employed jquery animations',
-          'Deployed using Github Pages',
+          'Deployed using Github Pages, Vercel & Netlify',
       ],
       gitHub: 'https://github.com/rickmansfield/RockPaperScisors_JS',
       deployed_site: 'https://rickmansfield.github.io/RockPaperScisors_JS/',
