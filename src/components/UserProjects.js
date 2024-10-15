@@ -12,7 +12,7 @@ import AIShowcaseThinker from '../photos/AI-Showcase-Purple-Thinker.png';
 export const user_projects = [
   {
     title: 'AI Showcase',
-    description: 'A modern web app demonstrating AI-based features like product recommendations, sentiment analysis, and more. Built with React.js, this project showcases advanced frontend techniques and API integrations.',
+    description: 'UNDER CONSTRUCTION: A modern web app demonstrating AI-based features like product recommendations, sentiment analysis, and more. Built with React.js, this project showcases advanced frontend techniques and API integrations.',
     contributions: [
         'Full-stack Developer | Technical Project Manager',
         'Designed and developed the entire application from scratch using React.js with responsive design for mobile, tablet, and desktop views',
